@@ -1,4 +1,4 @@
- create table sales (
+ create table sales_table (
     id bigint identity (1, 1) not null,
     email varchar(100) not null,
     product_id int not null,
