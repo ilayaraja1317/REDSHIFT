@@ -12,7 +12,6 @@ conn = redshift_connector.connect(
 )
 
 cur = conn.cursor()
-cur.execute("create table category2 (catid int, cargroup varchar, catname varchar, catdesc varchar)")
 cur.execute(open("test.sql", "r").read())
 conn.commit()
 rows = cur.fetchall()
