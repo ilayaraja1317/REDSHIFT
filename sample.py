@@ -1,8 +1,8 @@
-import sys
+import os
 
 def main():
-   input1 = sys.argv[1]
-   input2 = sys.argv[2]
+   input1 =os.environ['Branch']
+   input2 =os.environ['ENV']
    print(input1)
    print(input2)
 if __name__ == "__main__":
