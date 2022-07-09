@@ -7,5 +7,5 @@ def main():
    print(input2)
 if __name__ == "__main__":
   print('Welcome to Redshift Deployment')
-   main()
+  main()
 
