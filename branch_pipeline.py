@@ -6,8 +6,10 @@ def main():
    print(input2)
 if __name__ == "__main__":
   print('Welcome to Redshift Deployment')
-  
-if (input2=='DEV' and input1=='main'):
+  a = input1
+  b = input2
+print(a)
+if (a =='DEV'):
  { 
   print('It is DEV ENV & main brach')
  }
