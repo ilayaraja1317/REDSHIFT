@@ -6,7 +6,7 @@ def main():
    print(input2)
    if (input2=='DEV'):
       print('It is DEV ENV & main brach')
-      python3 contest2.py
+      execfile("contest2.py")
       print('Deploy completed')
    else:
       print('Its not a DEV & main brach')
