@@ -1,5 +1,4 @@
 import os
-import contest3.py
 def main():
    input1 =os.environ['Branch']
    input2 =os.environ['ENV']
@@ -7,7 +6,7 @@ def main():
    print(input2)
    if (input2=='DEV'):
       print('It is DEV ENV & main brach')
-      contest3.rs_dep()
+      exec(open("contest3.py").read())
       print('Deploy completed')
    else:
       print('Its not a DEV & main brach')
