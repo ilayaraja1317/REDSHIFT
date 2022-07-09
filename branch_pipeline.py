@@ -1,4 +1,6 @@
 import os
+import sys
+import redshift_connector
 def main():
    input1 =os.environ['Branch']
    input2 =os.environ['ENV']
