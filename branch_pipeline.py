@@ -9,12 +9,11 @@ if __name__ == "__main__":
   main()
 
 if ((input2=='DEV') and (input1=='main')):
-{ 
-print(It is DEV ENV & main brach)
-
-}
+ { 
+  print(It is DEV ENV & main brach)
+ }
 
 else:
-{
-print(Its not a DEV & main brach)
-}
+ {
+  print(Its not a DEV & main brach)
+  }
